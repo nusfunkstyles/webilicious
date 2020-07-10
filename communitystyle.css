@@ -187,9 +187,27 @@ body{
     opacity: 0%;
 }
 
+
 .hovcon:hover .fact{
     opacity: 1;
 }
+
+.fact2{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 0.9vw;
+    color: black;
+    left: 45%;
+    top: 38%;
+    z-index: 6;
+    opacity: 0%;
+}
+
+.hovcon:hover .fact2{
+    opacity: 1;
+}
+
 
 
 
@@ -705,6 +723,22 @@ video {
     .hovcon:hover .fact{
         opacity: 1;
     }
+
+    .fact2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 0.7vw;
+        color: black;
+        left: 45%;
+        top: 38%;
+        z-index: 6;
+        opacity: 0%;
+    }
+    
+    .hovcon:hover .fact2{
+        opacity: 1;
+    }
     
     
     
@@ -1189,7 +1223,7 @@ video {
         font-weight:700;
         font-size: 1vw;
         color: #ffb03a;
-        left: 44%;
+        left: 46%;
         top: 18%;
         z-index: 6;
         opacity: 0%;
@@ -1208,13 +1242,30 @@ video {
         font-weight:700;
         font-size: 0.8vw;
         color: black;
-        left: 45%;
+        left: 46.5%;
         top: 35%;
         z-index: 6;
         opacity: 0%;
     }
     
     .hovcon:hover .fact{
+        opacity: 1;
+    }
+
+
+    .fact2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 0.8vw;
+        color: black;
+        left: 46.5%;
+        top: 50%;
+        z-index: 6;
+        opacity: 0%;
+    }
+    
+    .hovcon:hover .fact2{
         opacity: 1;
     }
     
@@ -1313,7 +1364,7 @@ video {
         font-weight:700;
         font-size: 1vw;
         color: #ffb03a;
-        left: 43%;
+        left: 45%;
         top: 15%;
         z-index: 6;
         opacity: 0%;
@@ -1332,7 +1383,7 @@ video {
         font-weight:700;
         font-size: 0.9vw;
         color: black;
-        left: 44%;
+        left: 45%;
         top: 40%;
         z-index: 6;
         opacity: 0%;
