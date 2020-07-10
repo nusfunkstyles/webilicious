@@ -1,0 +1,474 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.Montserrat_regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+
+.Montserrat_semi_bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+
+.Montserrat_bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*Navbar*/
+.active a{
+    color: #fbb03a !important;
+}
+
+
+/*--------------Contact US page-----------------*/
+/*section 1*/
+.cont {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contact-bg-resize {
+    width: 100vw;
+    height:auto;
+}
+
+.c-text {
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 4vw;
+    color: #ffffff;
+    text-align: center;
+    top: 30%;
+    opacity: 50%;
+}
+
+.c-instagram {
+    position: absolute;
+    width:2%;
+    left: 30%;
+    top: 45%;
+}
+
+.instatext1{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 1vw;
+    color: #ffffff;
+    text-align: center;
+    left: 26.5%;
+    top: 50%;
+}
+.instatext2{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 0.8vw;
+    color: #ffffff;
+    text-align: center;
+    left: 25%;
+    top: 53%;
+}
+
+.c-facebook {
+    position: absolute;
+    width:1.1%;
+    height: auto;
+    left: 49%;
+    top: 45%;
+
+}
+.fbtext1{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 1vw;
+    color: #ffffff;
+    text-align: center;
+    left: 47%;
+    top: 50%;
+}
+.fbtext2{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 0.8vw;
+    color: #ffffff;
+    text-align: center;
+    left: 42%;
+    top: 53%;
+}
+
+.c-youtube {
+    position: absolute;
+    width:2%;
+    height: auto;
+    right: 30%;
+    top: 45.5%;
+}
+.yttext1{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 1vw;
+    color: #ffffff;
+    text-align: center;
+    left: 65%;
+    top: 50%;
+}
+.yttext2{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 0.8vw;
+    color: #ffffff;
+    text-align: center;
+    left: 61%;
+    top: 53%;
+}
+
+
+/*footer*/
+
+.cfooter {
+    position: absolute;
+    background-color:rgba(43, 6, 86, 0.5);
+    width:100vw;
+    height:auto;
+    bottom:0px;
+}
+
+.c-email-add {
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 0.8vw;
+    color: #ffffff;
+    text-align: center;
+}
+
+.c-email {
+    width:1.5%;
+    height: auto;
+}
+
+.c-queries {
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 0.8vw;
+    color: #ffffff;
+    text-align: center;
+}
+
+.c-copy-right{
+    font-size: 0.8vw;
+    height: auto;
+}
+
+
+@media all and (max-width:1100px) {
+    .contact-bg-resize {
+        width: 100%;
+        height:100vh;
+    }
+
+    .c-text {
+        font-size: 8vw;
+        top: 10%;
+        opacity: 50%;
+    }
+
+    .c-instagram {
+        position: absolute;
+        width:10%;
+        left: 45.5%;
+        top: 20%;
+    }
+    
+    .instatext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 34.5%;
+        top: 29%;
+    }
+    .instatext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 28.5%;
+        top: 32%;
+    }
+    
+    .c-facebook {
+        position: absolute;
+        width:6%;
+        height: auto;
+        left: 47%;
+        top: 39%;
+    
+    }
+    .fbtext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 40%;
+        top: 48%;
+    }
+    .fbtext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 21%;
+        top: 51%;
+    }
+    
+    .c-youtube {
+        position: absolute;
+        width:10%;
+        height: auto;
+        left: 45%;
+        top: 60%;
+    }
+    .yttext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 34%;
+        top: 67%;
+    }
+    .yttext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 18%;
+        top: 70%;
+    }
+    
+    
+    /*footer*/
+    
+    .cfooter {
+        position: absolute;
+        background-color:rgba(43, 6, 86, 0.5);
+        width:100%;
+        height:auto;
+        bottom:0px;
+    }
+    
+    .c-email-add {
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .c-email {
+        width:10%;
+        height: auto;
+    }
+    
+    .c-queries {
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .c-copy-right{
+        font-size: 3vw;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:500px) {
+    .contact-bg-resize {
+        width: 100%;
+        height:80vh;
+    }
+
+    .c-text {
+        font-size: 8vw;
+        top: 5%;
+        opacity: 50%;
+    }
+
+    .c-instagram {
+        position: absolute;
+        width:10%;
+        left: 45.5%;
+        top: 15%;
+    }
+    
+    .instatext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 34.5%;
+        top: 23%;
+    }
+    .instatext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 28%;
+        top: 26%;
+    }
+    
+    .c-facebook {
+        position: absolute;
+        width:6%;
+        height: auto;
+        left: 47%;
+        top: 35%;
+    
+    }
+    .fbtext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 40%;
+        top: 44%;
+    }
+    .fbtext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 22%;
+        top: 47%;
+    }
+    
+    .c-youtube {
+        position: absolute;
+        width:10%;
+        height: auto;
+        left: 45%;
+        top: 58%;
+    }
+    .yttext1{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3.5vw;
+        color: #ffffff;
+        text-align: center;
+        left: 34%;
+        top: 64%;
+    }
+    .yttext2{
+        position: absolute;
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        left: 19%;
+        top: 67%;
+    }
+    
+    
+    /*footer*/
+    
+    .cfooter {
+        position: absolute;
+        background-color:rgba(43, 6, 86, 0.5);
+        width:100%;
+        height:auto;
+        bottom:0px;
+    }
+    
+    .c-email-add {
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .c-email {
+        width:10%;
+        height: auto;
+    }
+    
+    .c-queries {
+        font-family:'Montserrat', sans-serif;
+        font-weight:400;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .c-copy-right{
+        font-size: 3vw;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
