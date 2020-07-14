@@ -785,7 +785,7 @@ video {
         /* Carousel quote color*/
         font-family: 'Montserrat', sans-serif;
         font-weight:400;
-        font-size: 2vw;
+        font-size: 1.2vw;
         color:black
     }
 
@@ -1196,8 +1196,8 @@ video {
 
     .carousel-indicators li { 
         /* Over-ride carousel indicator*/
-        width: 10px;
-        height: 10px;
+        width: 7px;
+        height: 7px;
         margin: 2%;
         border-radius: 100%;
         background-color:#fbb039;
@@ -1225,7 +1225,7 @@ video {
         /* Carousel quote color*/
         font-family: 'Montserrat', sans-serif;
         font-weight:400;
-        font-size: 2vw;
+        font-size: 1.2vw;
         color:black
     }
 
@@ -1234,7 +1234,7 @@ video {
         /* Carousel quote color*/
         font-family: 'Montserrat', sans-serif;
         font-weight:400;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
         color:black
     }
 
