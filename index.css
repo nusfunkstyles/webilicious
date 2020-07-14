@@ -91,7 +91,7 @@ video {
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:bold;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     color: #fbb03a;
     text-align: right;
     top:47%;
@@ -524,7 +524,7 @@ video {
         font-size: 3vw;
         color: #fbb03a;
         text-align: right;
-        top:5%;
+        top:17%;
         left:1%;
     }
 
@@ -955,7 +955,7 @@ video {
         font-size: 4vw;
         color: #fbb03a;
         text-align: right;
-        top:15%;
+        top:18%;
         left:1%;
     }
 
