@@ -42,7 +42,7 @@ body {
 
 .home-video {
     position:relative;
-    top:-150px;
+    top:-155px;
     display:flex;
     justify-content: center;
 }
@@ -473,7 +473,7 @@ video {
 
     .home-video {
         position:relative;
-        top:-150px;
+        top:-155px;
         display:flex;
         justify-content: center;
     }
@@ -904,7 +904,7 @@ video {
 
     .home-video {
         position:relative;
-        top:-150px;
+        top:-155px;
         display:flex;
         justify-content: center;
     }
