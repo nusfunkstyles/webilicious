@@ -54,90 +54,36 @@ body {
     opacity: 50%;
 }
 
-.c-instagram {
-    position: absolute;
-    width:2%;
-    left: 30%;
-    top: 45%;
-}
 
-.instatext1{
+.c-linktree {
     position: absolute;
-    font-family:'Montserrat', sans-serif;
-    font-weight:700;
-    font-size: 1vw;
-    color: #ffffff;
-    text-align: center;
-    left: 26.5%;
-    top: 50%;
-}
-.instatext2{
-    position: absolute;
-    font-family:'Montserrat', sans-serif;
-    font-weight:400;
-    font-size: 0.8vw;
-    color: #ffffff;
-    text-align: center;
-    left: 25%;
-    top: 53%;
-}
-
-.c-facebook {
-    position: absolute;
-    width:1.1%;
+    width:8%;
     height: auto;
-    left: 49%;
-    top: 45%;
+    left: 45%;
+    top: 43%;
 
 }
-.fbtext1{
+.lttext1{
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:700;
-    font-size: 1vw;
+    font-size: 2.5vw;
     color: #ffffff;
     text-align: center;
-    left: 47%;
-    top: 50%;
+    left: 42.5%;
+    top: 57%;
 }
-.fbtext2{
+.lttext2{
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:400;
-    font-size: 0.8vw;
+    font-size: 2vw;
     color: #ffffff;
     text-align: center;
-    left: 42%;
-    top: 53%;
+    left: 34%;
+    top: 62%;
 }
 
-.c-youtube {
-    position: absolute;
-    width:2%;
-    height: auto;
-    right: 30%;
-    top: 45.5%;
-}
-.yttext1{
-    position: absolute;
-    font-family:'Montserrat', sans-serif;
-    font-weight:700;
-    font-size: 1vw;
-    color: #ffffff;
-    text-align: center;
-    left: 65%;
-    top: 50%;
-}
-.yttext2{
-    position: absolute;
-    font-family:'Montserrat', sans-serif;
-    font-weight:400;
-    font-size: 0.8vw;
-    color: #ffffff;
-    text-align: center;
-    left: 61%;
-    top: 53%;
-}
 
 
 /*footer*/
@@ -159,7 +105,7 @@ body {
 }
 
 .c-email {
-    width:1.5%;
+    width:2.5%;
     height: auto;
 }
 
@@ -180,52 +126,25 @@ body {
 @media all and (max-width:1100px) {
     .contact-bg-resize {
         width: 100%;
-        height:100vh;
+        height:80vh;
     }
 
     .c-text {
         font-size: 8vw;
-        top: 10%;
+        top: 18%;
         opacity: 50%;
     }
 
-    .c-instagram {
+   
+    .c-linktree {
         position: absolute;
         width:10%;
-        left: 45.5%;
-        top: 20%;
-    }
-    
-    .instatext1{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:700;
-        font-size: 3.5vw;
-        color: #ffffff;
-        text-align: center;
-        left: 34.5%;
-        top: 29%;
-    }
-    .instatext2{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:400;
-        font-size: 3vw;
-        color: #ffffff;
-        text-align: center;
-        left: 28.5%;
-        top: 32%;
-    }
-    
-    .c-facebook {
-        position: absolute;
-        width:6%;
         height: auto;
-        left: 47%;
+        left: 44%;
         top: 39%;
     
     }
-    .fbtext1{
+    .lttext1{
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
@@ -233,46 +152,19 @@ body {
         color: #ffffff;
         text-align: center;
         left: 40%;
-        top: 48%;
+        top: 49%;
     }
-    .fbtext2{
+    .lttext2{
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:400;
         font-size: 3vw;
         color: #ffffff;
         text-align: center;
-        left: 21%;
-        top: 51%;
+        left: 25%;
+        top: 53%;
     }
     
-    .c-youtube {
-        position: absolute;
-        width:10%;
-        height: auto;
-        left: 45%;
-        top: 60%;
-    }
-    .yttext1{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:700;
-        font-size: 3.5vw;
-        color: #ffffff;
-        text-align: center;
-        left: 34%;
-        top: 67%;
-    }
-    .yttext2{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:400;
-        font-size: 3vw;
-        color: #ffffff;
-        text-align: center;
-        left: 18%;
-        top: 70%;
-    }
     
     
     /*footer*/
@@ -294,7 +186,7 @@ body {
     }
     
     .c-email {
-        width:10%;
+        width:8%;
         height: auto;
     }
     
@@ -320,52 +212,25 @@ body {
 @media all and (max-width:500px) {
     .contact-bg-resize {
         width: 100%;
-        height:80vh;
+        height:72vh;
     }
 
     .c-text {
         font-size: 8vw;
-        top: 5%;
+        top: 18%;
         opacity: 50%;
     }
 
-    .c-instagram {
-        position: absolute;
-        width:10%;
-        left: 45.5%;
-        top: 15%;
-    }
     
-    .instatext1{
+    .c-linktree {
         position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:700;
-        font-size: 3.5vw;
-        color: #ffffff;
-        text-align: center;
-        left: 34.5%;
-        top: 23%;
-    }
-    .instatext2{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:400;
-        font-size: 3vw;
-        color: #ffffff;
-        text-align: center;
-        left: 28%;
-        top: 26%;
-    }
-    
-    .c-facebook {
-        position: absolute;
-        width:6%;
+        width:12%;
         height: auto;
-        left: 47%;
-        top: 35%;
+        left: 43%;
+        top: 33%;
     
     }
-    .fbtext1{
+    .lttext1{
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
@@ -375,43 +240,15 @@ body {
         left: 40%;
         top: 44%;
     }
-    .fbtext2{
+    .lttext2{
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:400;
         font-size: 3vw;
         color: #ffffff;
         text-align: center;
-        left: 22%;
+        left: 24%;
         top: 47%;
-    }
-    
-    .c-youtube {
-        position: absolute;
-        width:10%;
-        height: auto;
-        left: 45%;
-        top: 58%;
-    }
-    .yttext1{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:700;
-        font-size: 3.5vw;
-        color: #ffffff;
-        text-align: center;
-        left: 34%;
-        top: 64%;
-    }
-    .yttext2{
-        position: absolute;
-        font-family:'Montserrat', sans-serif;
-        font-weight:400;
-        font-size: 3vw;
-        color: #ffffff;
-        text-align: center;
-        left: 19%;
-        top: 67%;
     }
     
     
