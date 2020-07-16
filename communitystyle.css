@@ -163,7 +163,7 @@ body{
     font-size: 1vw;
     color: #ffb03a;
     left: 44%;
-    top: 5%;
+    top: 15%;
     z-index: 6;
     opacity: 0%;
 }
@@ -179,10 +179,10 @@ body{
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:700;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     color: black;
     left: 45%;
-    top: 28%;
+    top: 31%;
     z-index: 6;
     opacity: 0%;
 }
@@ -196,10 +196,10 @@ body{
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:700;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     color: black;
     left: 45%;
-    top: 38%;
+    top: 45%;
     z-index: 6;
     opacity: 0%;
 }
@@ -305,7 +305,7 @@ body{
     font-size: 1vw;
     color: #ffb03a;
     left: 44%;
-    top: 10%;
+    top: 15%;
     z-index: 6;
     opacity: 0%;
 }
@@ -321,10 +321,10 @@ body{
     position: absolute;
     font-family:'Montserrat', sans-serif;
     font-weight:700;
-    font-size: 0.9vw;
+    font-size: 0.85vw;
     color: black;
     left: 44%;
-    top: 40%;
+    top: 43%;
     z-index: 6;
     opacity: 0%;
 }
