@@ -628,7 +628,7 @@ video {
         font-weight:700;
         font-size: 0.8vw;
         color: white;
-        left: 21%;
+        left: 18%;
         top: 50%;
     
     }
@@ -693,10 +693,10 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1.2vw;
+        font-size: 1vw;
         color: #ffb03a;
         left: 43%;
-        top: 10%;
+        top: 13%;
         z-index: 6;
         opacity: 0%;
     }
@@ -731,7 +731,7 @@ video {
         font-size: 0.7vw;
         color: black;
         left: 45%;
-        top: 38%;
+        top: 45%;
         z-index: 6;
         opacity: 0%;
     }
@@ -1111,9 +1111,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1vw;
+        font-size: 1.3vw;
         color: #ffb03a;
-        left: 24%;
+        left: 27%;
         top: 50%;
     }
     
@@ -1121,9 +1121,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1vw;
+        font-size: 1.3vw;
         color: #ffb03a;
-        left: 28%;
+        left: 29%;
         top: 50%;
     }
     
@@ -1131,9 +1131,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1vw;
+        font-size: 1.3vw;
         color: #ffb03a;
-        left: 28%;
+        left: 30%;
         top: 50%;
     }
     
@@ -1141,9 +1141,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1vw;
+        font-size: 1.3vw;
         color: #ffb03a;
-        left: 28%;
+        left: 29%;
         top: 50%;
     }
     
@@ -1154,9 +1154,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.8vw;
+        font-size: 1vw;
         color: white;
-        left: 21%;
+        left: 23%;
         top: 50%;
     
     }
@@ -1221,7 +1221,7 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.9vw;
+        font-size: 2vw;
         color: #ffb03a;
         left: 46%;
         top: 18%;
@@ -1240,7 +1240,7 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.8vw;
+        font-size: 1.5vw;
         color: black;
         left: 46.5%;
         top: 35%;
@@ -1257,7 +1257,7 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.8vw;
+        font-size: 1.5vw;
         color: black;
         left: 46.5%;
         top: 48%;
@@ -1269,6 +1269,9 @@ video {
         opacity: 1;
     }
     
+    .row {
+        flex-direction: column;
+    }
     
     
     
@@ -1279,9 +1282,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 1vw;
+        font-size: 1.3vw;
         color: #ffb03a;
-        left: 35%;
+        left: 29%;
         top: 50%;
     }
     
@@ -1291,9 +1294,9 @@ video {
         position: relative;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.8vw;
+        font-size: 1vw;
         color: white;
-        left: 30%;
+        left: 23%;
         top: 50%;
     
     }
@@ -1305,8 +1308,8 @@ video {
     }
     .person20 {
         position: absolute;
-        width: 12.25%;
-        left: 28%;
+        width: 23%;
+        left: 14.5%;
         top:0.5%;
         z-index: 1;
         transition: .5s ease;
@@ -1320,8 +1323,8 @@ video {
     
     .ring20 {
         position: relative;
-        width: 12%;
-        left: 30%;
+        width: 22%;
+        left: 19%;
         z-index: 0;
         opacity: 1;
     }
@@ -1334,8 +1337,8 @@ video {
     
     .instructorinfo20 {
         position: relative;
-        width: 39%;
-        left: 18.25%;
+        width: 73%;
+        left: -3.5%;
         transition: .5s ease;
         opacity: 0;
         z-index: 0;
@@ -1347,8 +1350,8 @@ video {
     
     .ofilter20 {
         position: absolute;
-        width: 12.75%;
-        left: 30.5%;
+        width: 24%;
+        left: 19.4%;
         top: -2%;
         opacity: 0%;
         z-index: 3;
@@ -1362,7 +1365,7 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.9vw;
+        font-size: 2vw;
         color: #ffb03a;
         left: 45%;
         top: 15%;
@@ -1381,10 +1384,10 @@ video {
         position: absolute;
         font-family:'Montserrat', sans-serif;
         font-weight:700;
-        font-size: 0.9vw;
+        font-size: 1.5vw;
         color: black;
         left: 45%;
-        top: 40%;
+        top: 43%;
         z-index: 6;
         opacity: 0%;
     }
